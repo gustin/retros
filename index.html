@@ -27,6 +27,12 @@
           font-size:4em;
           margin:0 auto;
         }
+        .step {
+          opacity: 0.2;
+        }
+        .step.active {
+          opacity: 1;
+        }
     </style>
   </head>
   <body>
@@ -34,35 +40,35 @@
       <header class="step">
         <h1>Retro for Change</h1>
       </header>
-
       <section class="step" data-x="-1200" data-y="0">
-        <p style='width:1000px;font-size:80px;'>
-        First Slide Moves From Left To Right</p>
-        <p>Impress.js </p>
+        <p>Agile Retrospections</p>
       </section>
       <section class="step" data-x="2200" data-y="500">
-        <p>This Slide Moves From Right To Left and Bottom To Top</p>
+        <p>Agile Manifesto</p>
       </section>
       <section class="step" data-x="2200" data-y="-500">
-        <p>This Slide Moves Top To Bottom</p>
+        <p>Name and Form</p>
       </section>
       <section class="step" data-x="3200" data-rotate="150">
-        <p>This Slide Rotates Clockwise Around z-axis</p>
+        <p>The Values</p>
       </section>
       <section class="step" data-x="6200" data-scale='3'>
-        <p>This Slide Scales 3 Times</p>
+        <p>Format</p>
       </section>
       <section class="step" data-x="4200" data-y='1500' data-z='1500'>
-        <p>Away</p>
+        <p>Example #1</p>
       </section>
       <section class="step" data-x="4900" data-y='1500' data-z='100'>
-        <p>Towards</p>
+        <p>Example #2</p>
       </section>
       <section class="step" data-x="5600" data-y='1500' data-z='-1500'>
-        <p>Futher Towards</p>
+        <p>Example #3</p>
+      </section>
+      <section class="step" data-x="6700" data-y='3000' data-scale='1500'>
+        <p>Example #4</p>
       </section>
       <section class="step" data-x="6600" data-y='3000' data-scale='10'>
-        <p>Visualization Slide Positions</p>
+        <p>Resources/p>
       </section>
     </div>
     <script src="./javascripts/impress.js"></script>
